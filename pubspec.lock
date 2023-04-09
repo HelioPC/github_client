@@ -88,6 +88,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  fluttericon:
+    dependency: "direct main"
+    description:
+      name: fluttericon
+      sha256: "252fa8043826e93d972a602497a260cb3d62b5aea6d045793e4381590f2c1e99"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  github:
+    dependency: "direct main"
+    description:
+      name: github
+      sha256: "3150898cd04af1213379b98fcd3f75681518eb12bb37b1c3ac489656b98c2138"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.11.0"
   http:
     dependency: "direct main"
     description:
@@ -112,6 +128,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: c33da08e136c3df0190bd5bbe51ae1df4a7d96e7954d1d7249fea2968a72d317
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.0"
   lints:
     dependency: transitive
     description:
@@ -301,6 +325,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  window_to_front:
+    dependency: "direct main"
+    description:
+      path: "plugins/window_to_front"
+      relative: true
+    source: path
+    version: "0.0.1"
 sdks:
   dart: ">=3.0.0-411.0.dev <4.0.0"
   flutter: ">=3.3.0"
